@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="" class="logo">Rivera</a>
+        <div class="fas fa-bars" id="menu"></div>
+        <nav class="navbar">
+          <a href="">Home</a>
+          <a href="weather.html">Weather</a>
+          <a href="#services">Services</a>
+         
+          <a href="#packages">Packages</a>
+          <a href="#contact">Contact us</a>
+          
+        </nav>
+      </header>
+      <div class="container">
+        <div class="slide-container active">
+          <div class="slide">
+            <div class="content">
+              <h3>Discover the world</h3>
+              
+              <a href="" class="btn">Learn more</a>
+            </div>
+            <video src="/vid.mp4" muted autoplay loop></video>
+          </div>
+        </div>
+        
+          
+        </div>
+        <section class="services" id="services">
+            <h1>Services</h1>
+            <div class="row">
+              <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>5 Star Hotels</h3>
+                <p>You will be staying at the best hotels in the town</p>
+              </div>
+              <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Best Food</h3>
+                <p>Taste the best local items.</p>
+              </div>
+              <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety guide</h3>
+                <p>You will be provided an experienced guide.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="box">
+                <i class="fas fa-globe"></i>
+                <h3>around the world?</h3>
+                <p>You will be staying at the best hotels in the town</p>
+              </div>
+              <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest travels</h3>
+                <p>we provide the fast travels with proper safety.</p>
+              </div>
+              <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>Explore and enjoy the different activities.</p>
+              </div>
+            </div>
+          </section>
+          
+          <section class="packages" id="packages">
+            <h2 style="font-size: 3rem; text-align: center; margin: 3rem">
+              Packages
+            </h2>
+            <div class="row">
+              <div class="box">
+                <div class="content">
+                  <img src="/agra.jpeg" alt="" />
+                  <h3>Agra</h3>
+                  <div class="price">
+                    $1000 (including transportation,food and stay)
+                  </div>
+                  <div class="offer">5 days/4 nights</div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content">
+                  <img src="/leh.jpeg" alt="" />
+                  <h3>Leh Ladakh</h3>
+                  <div class="price">
+                    $1000 (including transportation,food and stay)
+                  </div>
+                  <div class="offer">5 days/4 nights</div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content">
+                  <img src="/manali.jpeg" alt="" />
+                  <h3>Manali</h3>
+                  <div class="price">
+                    $1000 (including transportation,food and stay)
+                  </div>
+                  <div class="offer">5 days/4 nights</div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="box">
+                <div class="content">
+                  <img src="/rajas.jpeg" alt="" />
+                  <h3>Rajasthan</h3>
+                  <div class="price">
+                    $1000 (including transportation,food and stay)
+                  </div>
+                  <div class="offer">5 days/4 nights</div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content">
+                  <img src="/kerela.jpeg" alt="" />
+                  <h3>Kerala</h3>
+                  <div class="price">
+                    $1000 (including transportation,food and stay)
+                  </div>
+                  <div class="offer">5 days/4 nights</div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content">
+                  <img src="/goa.jpeg" alt="" />
+                  <h3>Goa</h3>
+                  <div class="price">
+                    $1000 (including transportation,food and stay)
+                  </div>
+                  <div class="offer">5 days/4 nights</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contact" id="contact">
+            <h1>get in touch</h1>
+            <form action="https://formspree.io/f/myylazdl" method="POST">
+              <div class="inputBox">
+                <input type="text" required />
+                <label for="">Name</label>
+              </div>
+              <div class="inputBox">
+                <input type="email" name="_replyto" required />
+                <label for="">email</label>
+              </div>
+              <div class="inputBox">
+                <input type="number" required />
+                <label for="">number</label>
+              </div>
+      
+              <input
+                type="submit"
+                name=""
+                id="btn"
+                class="btn"
+                value="Submit"
+                style="
+                  font-size: 1.8rem;
+                  background-color: black;
+                  color: #fff;
+                  border-radius: 25px;
+                  padding: 1rem;
+                "
+              />
+            </form>
+          </section>
+        </section>
+         <!--Footer section -->
+    <section class="footer">
+        <div class="share">
+          <a href="" class="fab fa-facebook-f"></a>
+          <a href="" class="fab fa-twitter"></a>
+          <a href="" class="fab fa-instagram"></a>
+          <a href="" class="fab fa-whatsapp"></a>
+        </div>
+        <h1 class="credits">
+            created by <span>Patel Ekta and Prakruti Patel</span>| all rights reserved!
+          </h1>
+      </section>
+      <script src="script.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 'auto',
+          spaceBetween: 40,
+          centeredSlides:true,
+          grabCursor:true,
+          freeMode: true,
+          loop:true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
+</html>
